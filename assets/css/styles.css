@@ -1,0 +1,51 @@
+body{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: black;
+}
+
+.bio{
+    margin-top: 25px;
+    display: flex;
+    border: solid aliceblue 1px;
+}
+.infoBio{
+    margin-left: 2%;
+}
+
+
+.discos ul li{
+    display:inline-block;
+}
+.discos ul li a{
+    justify-content: space-between;   
+}
+
+.discos ul li a img{
+    transition: .5s;
+    object-fit: cover;    
+}
+
+.discos ul li a img:hover{
+    transform: scale(1.2);
+}
+
+
+.redes{
+    display: flex;
+}
+.redes ul li{
+    display: inline-block;
+}
+
+.redes ul li a{
+    justify-content: space-between;   
+}
+.redes ul li a img{
+    transition: .5s;
+    object-fit: cover;    
+}
+.redes ul li a img:hover{
+    transform: scale(1.2);
+}
