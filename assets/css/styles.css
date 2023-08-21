@@ -5,6 +5,14 @@ body{
     background-color: black;
 }
 
+.titulo{
+    text-align: center;
+    transition: .5s;
+}
+.titulo:hover{
+    color: rgb(106, 45, 106);
+    transform: scale(1.2);
+}
 .bio{
     margin-top: 25px;
     display: flex;
